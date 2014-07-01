@@ -1,6 +1,6 @@
 # Blank Python
 import scraperwiki
-html = scraperwiki.scrape("http://outlet.lenovo.com/laptops.html?limit=all")
+html = scraperwiki.scrape("http://outlet.lenovo.com/outlet_us/laptops")
 print html
 
 import lxml.html
